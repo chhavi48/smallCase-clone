@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mainContainer{
+    margin-left:0px;
+    margin-right:-16px;
+    /* overflow:auto; */
+   }
+   #header{
+     position:sticky;
+     top:0;
+   }
+#container{
+ display: flex;
+ padding: 15px 150px ;
+ justify-content: space-between;
+ border:1px solid rgb(182, 177, 177);
+ font-size: 18px;
+ border-left:none;
+ border-right:none;
+margin-left:-65px;
+margin-right:-10px;
+margin-top:-10px;
+/* position: sticky;
+top: 0; */
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+#container>div{
+ display: flex;
+ justify-content: space-evenly;
+ /* margin-left:20px; */
+ margin-right:40px; 
+ margin-top:-10px;
+}
+#container>div>a,div{
+margin-left:30px;
+color: rgba(97, 97, 95, 0.616);
+margin-top:10px;
+font-family: 'Sen', sans-serif;
+}
+#home>img{
+ width:110px;
+}
+#arrow>a>img{
+ width:17px;
+ margin-bottom:-8px;
+ color:  rgba(97, 97, 95, 0.616);
+}
+#arrow{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right:40px;
+    
+}
+#login{
+ padding: 8px 15px;
+ cursor: pointer;
+ border-color: rgba(91, 91, 199, 0.568);
+ color: blue;
+ background-color: white;
+ border-radius: 5px;
+ font-size: 17px;
+ margin-top:0px
+ 
+ 
+}
+
+a{
+ text-decoration: none;
+}
+
+
+
+@media all and (min-width:751px) and (max-width:980px){
+     
+     #container{
+      padding: 10px 80px;
+      
+ }
+ 
+ }
+ @media all and (min-width:381px) and (max-width:700px){
+     
+   #container{
+       padding: 10px 50px;
+       
+ }
+ }
+ @media all and (min-width:50px) and (max-width:380px){
+     
+   #container{
+       padding: 10px 30px;
+       
+ }
+ }
+
+#img1>div>img{
+width:100%;
+}
+
+#slide{
+width:100%;
+height:500px;
+margin-left:-10px;
+margin-right:-20px;
+background-size:100% 100%;
+
+}
+#slide>img{
+
+float: right;
+
+margin-top: 220px;
+}
+#more{
+   position: absolute;
+   right:200px;
+}
+.more-body{
+    
+    background: transparent;  
+    width:170px;
+    position:relative;
+    margin-left:-60px;
+    padding: 0px 20px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.more-body>div{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    padding: 0px 0px 20px 0px;
+    margin-left:-5px
+    
+    
+}
+#career{
+    margin-left: -5px;
+}
+#made{
+    display: flex;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.466);
+    border: none;
+}
+.more-body>div>p,a{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.close{
+    cursor: pointer;
+    color: rgb(70, 34, 34);
+  transform: scale(1.2);
+    
+    
+}
+
+    </style>
+</head>
+<body>
+    `<div id="container">
+        <div >
+            <a href="index.html">
+                <div id="home">
+                    <img src="https://www.smallcase.com/static/svgs/logo-full.svg"/>
+                </div>
+            </a>
+         <a href="">
+            <div>
+                Discover
+            </div>
+         </a>
+         <a href="">
+            <div>
+                Watchlist
+            </div>
+         </a>
+         
+        </div>
+        <div id="main">
+            <a href="">
+                <div>For Bussiness</div>
+            </a>
+         
+            <div id="arrow">
+                
+              <a id="moreclose" href="extra.html" data-target="#more" data-toggle="modal"> More</a> 
+              
+            </div>
+        
+          
+          <div>
+              <button id="login" onclick="window.location.href='login.html'">Login</button>
+          </div>
+        </div>
+    </div>
+
+    <div id="more" role="dialog">
+        <div class="more-body">
+            <button id="btnclose" data-dismiss="modal" class="close">&times;</button>
+            <div>
+                <p>Account</p>
+                <a href="">Open Broker Account</a>
+            </div>
+            <div><p>Support</p>
+              <a href="">FAQs</a> <br><br> 
+              <a href="">Chat with us</a>   
+          </div>
+          <div>
+              <p>Company</p>
+              <a href="">Blog</a>
+              <div id="career"><a href="">
+                  Careers
+              </a>
+              <button>Hiring</button>
+              </div>
+          </div>
+          <div id="made">
+              <img src="https://www.smallcase.com/static/images/smallcase-ecosystem-page/smallcase-logo.svg"/>
+              <p>Made with ♥︎ in India</p>
+          </div>
+        </div>
+</div>  
+</body>
+</html>
+
+<script>
+    let y=document.getElementById("moreclose");
+    let x= document.getElementById("more");
+    document.getElementById("btnclose").addEventListener("click",function(){
+       
+        x.style.display="none";
+        console.log("hello");
+        
+
+
+    })
+    
+</script>

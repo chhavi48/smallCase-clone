@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login.css"/>
+</head>
+<style>
+    /* #logincontain{
+   position:absolute;
+   left:600px;
+   background-color: aliceblue;
+   padding: 10px 0px;
+}
+#logincontain>button{
+   
+   position:absolute;
+   left:786px;
+   top:10px;
+   cursor: pointer;
+}
+#containerL{
+   display: flex;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+li{
+   display: flex;
+}
+li>img{
+   margin-right:20px;
+   margin-top:-35px;
+}
+#trade{
+   display: flex;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+#trade>img{
+   width:50px;
+   height: 40px;
+   margin-top:25px;
+   margin-right: 20px;
+}
+#list1,#list2{
+padding: 0px 20px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+#list1>div>h3{
+   margin-left: 80px;
+   margin-top: 40px;
+}
+#trade>div>p{
+   color: rgba(8, 19, 29, 0.692);
+   font-size: 20px;
+   margin-bottom: -15px;
+   font-family: sans-serif;
+}
+#logo{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+}
+#logo>div{
+   cursor:pointer;
+    text-align: center;
+    padding: 10px 20px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+#logo+div{
+   display: flex;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.div1{
+   height: 1px;
+   width:70px;
+   background-color: rgba(0, 0, 0, 0.322);
+   margin-top:10px ;
+}
+.div2{
+   padding: 0px 5px;
+}
+#logo+div+button{
+   width:340px;
+   height: 40px;
+   cursor: pointer;
+   margin-bottom: 30px;
+   font-size: 16px;
+   border-color: rgba(0, 0, 255, 0.363);
+   color: blue;
+   background-color: white;
+   font-family: sans-serif;
+   
+}
+#befor>div::before{
+   content: " . . . .";
+   font-size: 30px;
+   margin-left:320px;
+   
+   
+}
+#befor>div{
+   margin-bottom: -20px;
+   color: rgba(0, 0, 0, 0.37);
+
+}
+#after>div::after{
+   content: ". . . .";
+   font-size: 30px;
+   
+}
+#after>div{
+   margin-bottom: -20px;
+   margin-left: 10px;
+   color: rgba(0, 0, 0, 0.37);
+
+}
+#after{
+   margin-top:30px;
+   margin-bottom: 50px;
+} */
+
+</style>
+<body>
+    <div id="logincontain">
+        <button>x</button>
+    
+    <div id="containerL">
+        <div id="list1">
+            
+          <div id="befor">
+              <div>
+
+              </div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <h3>How does this work?</h3>
+          </div>
+          <div >
+              <ul>
+                  <li>
+                      <img src="https://connect.smallca.se/assets/img/broker-login.svg" />
+                      <div>
+                        <h4>Broker Login</h4>
+                        <div>Order is placed after you login with your broker and confirm it.</div>
+                      </div>
+                      
+                  </li><br>
+                  <li>
+                    <img src="https://connect.smallca.se/assets/img/funds.svg" />
+                    <div>
+                        <h4>Funds for the order</h4>
+                        <div>Funds for the order are used from your trading account.</div>
+                    </div>
+                    
+                </li><br>
+                <li>
+                    <img src="https://connect.smallca.se/assets/img/sucess.svg" />
+                    <div>
+                        <h4>Transaction Success</h4>
+                        <div>Stocks are credited to/ debited from your demat account.</div>
+                    </div>
+                    
+                </li>
+              </ul>
+          </div>
+          <div id="after">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+        </div>
+        <div id="list2">
+            <div id="trade">
+                <img src="	https://assets.smallcase.com/images/gateway/partners/smallcase-website.png"/>
+                <div>
+                   <p>Trade, track and manage investments on</p>
+                   <h1>  <span>smallcase</span></h1>
+                </div>
+                
+            </div>
+            <div>
+                <h3>Login with your broker</h3>
+            </div>
+            <div id="logo">
+                
+            </div>
+            <div>
+                <div class="div1"></div>
+                <div class="div2">Don’t have a broker account?</div>
+                <div class="div1"></div>
+            </div>
+            <button onclick="window.location.href='signup.html'">Open an account online</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+
+let obj1={};
+let arr1=[];
+function log(a,b,obj1,arr1){
+    obj1={
+        "Logo":`https://assets.smallcase.com/smallcase/assets/brokerLogo/small/${a}`,
+        "name":b
+    }
+    arr1.push(obj1);
+}
+let nameA=["Zerodha","Kotak","5paisa","Angel One","Groww","HDFC","ICICIdirect","Upstox"]
+let arr=["kotak.svg","fivepaisa.svg","angelbroking.svg","groww.svg","hdfc.svg","icici.svg","upstox.svg","kite.svg"]
+for(let i=0; i<arr.length; i++){
+log(arr[i],nameA[i],obj1,arr1);
+
+
+}
+
+console.log(arr1);
+
+append(arr1);
+let parent=document.getElementById("logo");
+function append(arr1,parent){
+     arr1.forEach((el)=>{
+        let div=document.createElement("div");
+    let img=document.createElement("img");
+    img.src=el.Logo;
+    img.style.width="30px";
+    let p=document.createElement("p");
+       p.innerText=el.name;
+       div.append(img,p);
+
+       document.getElementById("logo").append(div);
+     })
+    let p1=document.createElement("p");
+    p1.innerText="+6";
+    let p2=document.createElement("p");
+    p2.innerText="More";
+    p2.style.marginTop="-10px";
+    let div1=document.createElement("div");
+    div1.append(p1,p2);
+    div1.style.color="blue";
+    parent.append(div1);
+}
+
+
+
+//,"aliceblue.svg","axis.svg","edelweiss.svg","iifl.svg","motilal.svg"
+</script>
