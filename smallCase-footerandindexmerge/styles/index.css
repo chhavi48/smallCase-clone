@@ -1,0 +1,121 @@
+.details{
+display: flex;
+padding: 5%;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+width: 550px;
+box-sizing: border-box;
+height: 130px;
+margin-top: 5%;
+
+}
+.forimg{
+    border-radius: 5%;
+  
+}
+.left{
+    display: flex;
+    padding: 5%;
+    
+    width: 90%;
+    box-sizing: border-box;
+    height: 200px;
+}
+.marignsize{
+    margin-top: 10%;
+}
+.mobile{
+    border-top: 20px solid black;
+    border-radius: 5%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 2px solid black;
+
+}
+.rightdetail{
+    width: 400px;
+    border: 1px solid blue;
+    padding: 2%;
+    height: 150px;
+}
+.rightdeatils1{
+    width: 300px;
+    padding: 2%;
+}
+.rightdeatils1:hover{
+    border: 1px solid red;
+    color:blue;
+}
+.rightdeatils2{
+    width: 300px;
+    padding: 2%;
+}
+.rightdeatils2:hover{
+    border: 1px solid green;
+    color:blue;
+    
+}
+.rightdeatils3{
+    width: 300px;
+    padding: 2%;
+}
+.rightdeatils3:hover{
+    border: 1px solid rgba(228, 228, 54, 0.651);
+    color:blue;
+}
+.background{
+     background-image: url("https://www.smallcase.com/static/images/svg/finance-bg-2.svg");
+     height: 100vh;
+     background-color: rgb(63, 63, 219);
+     height: 600px;
+     border-radius: 2px;
+}
+.bgimage{
+    background-color: white;
+    width: 150px;
+    height: 80px;
+    margin-left: 8%;
+     border-radius: 5%;
+    
+   
+
+}
+.shift{
+display: flex;
+}
+.shift2{
+    display: flex;
+    margin-top: 5%;
+    }
+.btn{
+width: 150px;
+height: 50px;
+color: blue;
+background-color: white;
+margin-left: 41%;
+margin-top: 5%;
+}
+.btn a{
+    text-decoration: none;
+}
+.font{
+    font-family: Graphik Web Regular,sans-serif;
+    font-weight: bold;
+}
+.fonts{
+    font-family: Graphik Web Regular,sans-serif;
+   
+}
+.btn2{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(85, 85, 228);
+    color: white;
+    margin-left:35%;
+    
+    border-radius: 5%;
+    border-style: none;
+}
+.btn2 a{
+    color: white;
+    text-decoration: none;
+}
