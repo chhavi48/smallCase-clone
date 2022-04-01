@@ -1,0 +1,132 @@
+
+#logincontain{
+    position:absolute;
+    top:150px;
+    
+    left: 550px;
+    background-color: white;
+    justify-content:center;
+}
+#logincontain>button{
+    position:absolute;
+    left:800px;
+    top:10px;
+    cursor: pointer;
+    color: rgba(130, 124, 124, 0.895);
+}
+#containerL{
+    /* width:800px; */
+    display: flex;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    background-color: white;
+    /* justify-content: center; */
+    /* margin-right:100px; */
+}
+li{
+    display: flex;
+    margin-left:-20px;
+}
+li>img{
+    
+    margin-top:-40px;
+}
+li>div>h4{
+    margin-top:5px;
+}
+li>div>h4+div{
+    margin-left:0px;
+}
+#trade{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+#trade>img{
+    width:30px;
+    height: 30px;
+}
+#list1,#list2{
+    width:400px;
+    margin-left:-10px;
+    margin-right:10px;
+ 
+}
+#list1>div>h3{
+    margin-left:20px;
+}
+#trade>div>p{
+    color: rgba(8, 19, 29, 0.866);
+    font-size: 16px;
+    margin-top:0px;
+    margin-bottom: -15px;
+    font-family: sans-serif;
+}
+#logo{
+    height: 290px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:0px;
+    
+}
+#logo>div{
+    cursor:pointer;
+     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+#logo+div{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left:0px;
+}
+.div1{
+    height: 1px;
+    width:30px;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+.div2{
+    width:230px;
+    margin-top:0px;
+    
+}
+#logo+div+button{
+    width:330px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left:30px;
+    font-size: 16px;
+    border-color: rgba(0, 0, 255, 0.363);
+    color: blue;
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+#befor>div::before{
+    content: " . . . .";
+    font-size: 20px;
+    margin-left:10px;
+    
+    
+}
+#befor>div{
+    margin-bottom: -20px;
+    color: rgba(0, 0, 0, 0.37);
+    margin-left: 300px;
+    margin-top:10px;
+    margin-bottom: -20px;
+
+}
+#after>div::after{
+    content: ". . . .";
+    font-size: 20px;
+    
+}
+#after>div{
+    margin-bottom: -20px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.37);
+    margin-top:10px;
+}
+#after{
+    margin-top:20px;
+}
