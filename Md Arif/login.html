@@ -8,126 +8,155 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Sen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/login.css"/>
+    <!-- <link rel="stylesheet" href="./css/login.css"/> -->
+    <link rel="stylesheet" href="./css/main.css"/>
 </head>
 <style>
-    /* #logincontain{
-   position:absolute;
-   left:600px;
-   background-color: aliceblue;
-   padding: 10px 0px;
+   /* #logincontain{
+    position:absolute;
+    top:0px;
+    background-color: white;
+    justify-content:center;
 }
 #logincontain>button{
-   
-   position:absolute;
-   left:786px;
-   top:10px;
-   cursor: pointer;
-}
+    position:absolute;
+    left:770px;
+    top:10px;
+    cursor: pointer;
+    color: rgba(130, 124, 124, 0.895);
+} */
 #containerL{
-   display: flex;
-   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width:800px;
+    padding: 20px;
+    display: flex;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    background-color: white;
+    justify-content: center;
+    gap:40px;
+    /* margin-right:100px; */
 }
 li{
-   display: flex;
+    display: flex;
+    
 }
 li>img{
-   margin-right:20px;
-   margin-top:-35px;
+    margin-right: 20px;
+    margin-top:-45px;
+}
+li>div>h4{
+    margin-top:5px;
+    font-size: 18px;
+}
+li>div>h4+div{
+    margin-left:0px;
 }
 #trade{
-   display: flex;
-   border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    margin-top:20px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 #trade>img{
-   width:50px;
-   height: 40px;
-   margin-top:25px;
-   margin-right: 20px;
+    width:30px;
+    height: 30px;
 }
 #list1,#list2{
-padding: 0px 20px;
-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width:400px;
+    margin-left:-10px;
+    margin-right:10px;
+ 
 }
 #list1>div>h3{
-   margin-left: 80px;
-   margin-top: 40px;
+    margin-left:30px;
+    font-size: 22px;
 }
 #trade>div>p{
-   color: rgba(8, 19, 29, 0.692);
-   font-size: 20px;
-   margin-bottom: -15px;
-   font-family: sans-serif;
+    color: rgba(8, 19, 29, 0.866);
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
 }
 #logo{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   
+    height: 290px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:0px;
+    margin-top:20px;
 }
 #logo>div{
-   cursor:pointer;
-    text-align: center;
-    padding: 10px 20px;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    cursor:pointer;
+     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 #logo+div{
-   display: flex;
-   margin-top: 30px;
-   margin-bottom: 20px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    justify-content: center;
 }
 .div1{
-   height: 1px;
-   width:70px;
-   background-color: rgba(0, 0, 0, 0.322);
-   margin-top:10px ;
+    height: 1px;
+    width:30px;
+    background-color: rgba(0, 0, 0, 0.322);
 }
 .div2{
-   padding: 0px 5px;
+    width:220px;
+    margin-top:-12px;
+    
+    text-align: center;
 }
 #logo+div+button{
-   width:340px;
-   height: 40px;
-   cursor: pointer;
-   margin-bottom: 30px;
-   font-size: 16px;
-   border-color: rgba(0, 0, 255, 0.363);
-   color: blue;
-   background-color: white;
-   font-family: sans-serif;
-   
+    width:330px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left:30px;
+    font-size: 16px;
+    border-color: rgba(0, 0, 255, 0.363);
+    color: blue;
+    background-color: white;
+    font-family: sans-serif;
+    
 }
 #befor>div::before{
-   content: " . . . .";
-   font-size: 30px;
-   margin-left:320px;
-   
-   
+    content: " . . . .";
+    font-size: 20px;
+    margin-left:10px;
+    
+    
 }
 #befor>div{
-   margin-bottom: -20px;
-   color: rgba(0, 0, 0, 0.37);
+    margin-bottom: -15px;
+    color: rgba(0, 0, 0, 0.37);
+    margin-left: 300px;
+    margin-top:5px;
+    /* margin-bottom: -20px; */
 
 }
 #after>div::after{
-   content: ". . . .";
-   font-size: 30px;
-   
+    content: ". . . .";
+    font-size: 20px;
+    
 }
 #after>div{
-   margin-bottom: -20px;
-   margin-left: 10px;
-   color: rgba(0, 0, 0, 0.37);
-
+    margin-bottom: -15px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.37);
+    margin-top:5px;
 }
 #after{
-   margin-top:30px;
-   margin-bottom: 50px;
-} */
+    margin-top:0px;
+}
+
+
+
 
 </style>
 <body>
+   <div id="header2"></div>
     <div id="logincontain">
-        <button>x</button>
     
     <div id="containerL">
         <div id="list1">
@@ -207,8 +236,11 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 </body>
 </html>
 
-<script>
+<script type="module">
 
+   import navbar from "./component/navbar.js";
+
+document.getElementById("header2").innerHTML=navbar();
 let obj1={};
 let arr1=[];
 function log(a,b,obj1,arr1){
@@ -227,9 +259,9 @@ log(arr[i],nameA[i],obj1,arr1);
 }
 
 console.log(arr1);
-
-append(arr1);
 let parent=document.getElementById("logo");
+append(arr1,parent);
+
 function append(arr1,parent){
      arr1.forEach((el)=>{
         let div=document.createElement("div");

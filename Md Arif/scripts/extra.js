@@ -8,7 +8,7 @@ async function extra(){
         </div>
         <div><p>Support</p>
           <a href="">FAQs</a> <br><br> 
-          <a href="">Chat with us</a>   
+          <a id="chat1" href="">Chat with us</a>   
       </div>
       <div>
           <p>Company</p>
@@ -16,7 +16,7 @@ async function extra(){
           <div id="career"><a href="">
               Careers
           </a>
-          <button>Hiring</button>
+          <button id="hiring">Hiring</button>
           </div>
       </div>
       <div id="made">
