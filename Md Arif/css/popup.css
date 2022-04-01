@@ -1,0 +1,51 @@
+#brand{
+    width:350px;
+    height:250px;
+    padding: 10px;
+    background-color: white;
+}
+#cager{
+    display: flex;
+    gap:40px;
+    justify-content: space-between;
+}
+#invest{
+    width:140px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 5px;
+    margin-left:20px;
+}
+#cager>div{
+    margin-top:0px;
+    margin-left:20px;
+}
+#cager>div>p{
+    margin-bottom: -15px;
+    font-size: 16px;
+    margin-right: -20px;
+}
+#brand>div>h2+p{
+    font-size: 16px;
+}
+#cager>div>p+h4{
+    color: green;
+    font-size: 19px;
+    margin-top: 15px;
+}
+#brand>div>h2:hover{
+    color: blue;
+
+}
+#popup{
+    position:absolute;
+    top:390px;
+    left:700px;
+
+
+
+
+}
