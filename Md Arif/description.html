@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/description.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+
+    <!-- footer -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/36b5c9cc17.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar"></div>
+        <div id="main">
+            <div id="companyName"></div>
+            
+            <div id="mid">
+                <div class="nav">Overview</div>
+                <div class="nav">Stocks & Weights</div>
+                <div class="nav">News</div>
+            </div>
+            <hr>
+            <div id="des">
+                <div id="left">
+                    <h2>Why should you invest in this smallcase?</h2>
+                    <div><p>Affordable housing refers to existing and future housing units that come under the Pradhan Mantri Awas Yojana (PMAY), which was launched in 2015.</p></div>
+                    <ul>
+                        <li>The scheme was launched with the aim of building 2 crore affordable houses over a period of 7 years for the lower income segment</li>
+                        <li>Out of which, approximately 80 lakh houses are being targeted to complete by FY23</li>
+                        <li>Budget 2022-2023 allocation to PMAY increased by 75% to ₹40,000 crores</li>
+                        <li>Affordable housing projects were granted ‘infrastructure status’ earlier in Budget 2017, which ensured lower cost of borrowing for developers, thus encouraging them to take such projects</li>
+                        <li>Developers engaged in affordable housing projects also do not have to pay GST</li>
+                    </ul>
+                </div>
+                
+                <div id="middle">
+                    <p><a href="https://www.smallcase.com/blog/the-affordable-housing-opportunity/">Blog Post</a></p><br>
+                    <p class="tail">Read more about Affordable Housing</p>
+                    <p><a href="https://www.smallcase.com/smallcase/it-tracker-SCTR_0006#methodology">Methadology</a></p><br>
+                    <p class="tail">Know how this smallcase was created</p>
+                    <p><a href="https://www.smallcase.com/smallcase/it-tracker-SCTR_0006#methodology">Factsheet</a></p><br>
+                    <p class="tail">Download key points about this smallcase</p>
+                </div>
+                <div id="right">
+                    <p><span>Minimum Investment Amount</span></p>
+                    <div id="amt"></div>
+                    <p>Get access for free forever</p>
+                    <button id="investBtn" onclick="window.location.href='login.html'">Invest Now</button>
+                    <button id="wishlistBtn">Add To Wishlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nav3">
+        <div id="1">
+            <h2>Past Performance vs Equity Large Cap</h2>
+        </div>
+        <div id="2">
+            <button onclick="button1()"class="button1">1M</button>
+            <button onclick="button2()" class="button2">1Y</button>
+            <button onclick="button3()" class="button2">3Y</button>
+            <button onclick="button4()" class="button2">5Y</button>
+            <button onclick="button5()" class="button2">LIVE</button>
+            <button onclick="button6()" class="button2">MAX</button>
+            <button onclick="button7()" class="button2">SIP</button>
+        </div>
+        
+    </div>
+    <hr class="hr1">
+   
+    <div id="chart">
+        <img src="./chart/Screenshot 2022-03-31 114629.png" alt="chart1M">
+        <!-- <iframe src="https://drive.google.com/file/d/1dfRWtrhar8iKOuVJ1bsEekitzrZaXh75/preview"></iframe> -->
+    </div>
+
+
+    <div id="footer1"></div>
+</body>
+
+</html>
+
+<script src="./scripts/description.js"></script>
+<script src="./scripts/footer.js"></script>
+<script type="module">
+    import navbar from "./component/navbar.js";
+    document.getElementById("navbar").innerHTML=navbar();
+
+    import footer from "./scripts/footerhtml.js";
+    document.getElementById("footer1").innerHTML=footer();
+
+</script>
