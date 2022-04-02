@@ -164,32 +164,32 @@ Why Investors Should Invest in smallcases</p>
 
 <div class="row">
     <div class="col-sm-12 marignsize">
-        <h3 style="text-align: center;">Frequently Asked Questions</h3>
+        <h3 style="text-align: center; margin-bottom:50px; font-size:30px">Frequently Asked Questions</h3>
     </div>
 
 </div>
 <div class="row">
  <div class="col-sm-1"></div>
- <div class="col-sm-4 font">
+ <div class="col-sm-4 font" id="getting0">
 
-     <p>Getting Started</p>
-     <p  onclick="text()" style="margin-top: 10%;">What are smallcase?</p>
-     <p>How to invest in SmallCase?</p>
-     <p>Fees and Taxes</p>
-     <p>Can i buy smallcase as SIP?</p>
+     <p id="getting1">Getting Started</p>
+     <a  onclick="text()" style="margin-top: 30px;"> What are smallcase?</a><br>
+     <a> How to invest in SmallCase?</a><br>
+     <a> Fees and Taxes</a><br>
+     <a>> Can i buy smallcase as SIP?</a>
      <div id="para"></div>
  </div>
- <div class="col-sm-3 font">
-     <p style="margin-top: 10%;">Do you get dividends from smallcases?</p>
-     <p>What is rebalencing?</p>
-     <p>Who manage SmallCases?</p>
+ <div class="col-sm-3 font" id="getting2">
+     <a style="margin-top: 0px;"> Do you get dividends from smallcases?</a><br>
+     <a> What is rebalencing?</a><br>
+     <a> Who manage SmallCases?</a>
  </div>
- <div class="col-sm-3 font">
-     <p>Investing with SmallCases</p>
-     <p style="margin-top: 10%;">WatchList And Draft</p>
-     <p>Creating Your Profile</p>
-     <p>Order and History</p>
-     <p>Tracking a profile of stock</p>
+ <div class="col-sm-3 font" id="getting3">
+     <p id="getting4">Investing with SmallCases</p>
+     <a style="margin-top: 30px;"> WatchList And Draft</a><br>
+     <a> Creating Your Profile</a><br>
+     <a> Order and History</a><br>
+     <a> Tracking a profile of stock</a>
  </div>
  <div class="col-sm-1"></div>
 </div>
@@ -197,7 +197,7 @@ Why Investors Should Invest in smallcases</p>
 <div class="row marignsize">
     <div class="col-sm-4"></div>
     <div class="col-sm-4 fonts">
-        <p style="text-align: center; font-size: 18px;">Have more questions or some feedback?</p>
+        <p style="text-align: center; font-size: 18px; margin-top:-90px;">Have more questions or some feedback?</p>
          <p style="text-align: center;">We are just an email away</p>
          <button class="btn2"><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=help@smallcase.com">Write to Us</a></button>
     <p style="margin-left: 30%;margin-top: 4%;">Or visit our <a href="https://help.smallcase.com/en/">Help Center</a></p>

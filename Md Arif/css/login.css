@@ -12,6 +12,7 @@
     top:10px;
     cursor: pointer;
     color: rgba(130, 124, 124, 0.895);
+    padding: 1px 10px;
 }
 #containerL{
     width:800px;

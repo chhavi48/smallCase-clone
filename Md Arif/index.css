@@ -119,3 +119,34 @@ margin-top: 5%;
     color: white;
     text-decoration: none;
 }
+
+
+#getting2>a:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+#getting0>a:hover{
+cursor: pointer;
+color: blue;
+}
+#getting3>a:hover{
+    cursor:pointer;
+    color: blue;
+}
+#getting1 p:hover{
+
+    color:black ;
+ }
+ #getting0>a::before{
+     content: ">";
+     color: blue;
+ }
+ #getting2>a::before{
+    content: ">";
+    color: blue;
+}
+#getting3>a::before{
+    content: ">";
+    color: blue;
+}
