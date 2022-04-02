@@ -11,7 +11,7 @@ const navbar=()=>{
             Discover
         </div>
      </a>
-     <a href="">
+     <a href="whatchListAdd.html">
         <div>
             Watchlist
         </div>
@@ -19,7 +19,7 @@ const navbar=()=>{
      
     </div>
     <div id="main">
-        <a href="">
+        <a href="test.html">
             <div>For Bussiness</div>
         </a>
     

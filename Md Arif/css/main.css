@@ -279,4 +279,46 @@ margin-top: 220px;
 #mdarif{
    margin-top:600px;
 }
+.bgit{
+  background-image: url("https://www.smallcase.com/static/images/svg/InvIdeasPatternLeft.svg");
+height: 100vh;
+background-repeat: no-repeat;
+background-color:#f4faff;
+height: 900px;
+}
+.detit{
+  text-align: center;
+  /* margin-top: -15%; */
+  font-family: Graphik Web Regular,sans-serif;
+}
+.ittaker{
+  width:530px;
+  height: 180px;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+}
+.ditraker{
+  width:600px;
+  height: 180px;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+  margin-left: 10%;
+}
+.itimg{
+padding: 4%;
+}
+.itdet{
+  margin-top: 5%;
+}
+.boxs{
+  display: flex;
+}
+.cardimg{
+  margin-top: 5%;
+}
+.card_img{
+  display: flex;
+}
 

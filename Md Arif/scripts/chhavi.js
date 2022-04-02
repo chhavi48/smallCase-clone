@@ -48,6 +48,94 @@ Why Investors Should Invest in smallcases</p>
     </div>
 </div>
 
+<div class="row marignsize bgit">
+    <div class="col-sm-12"></div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 detit">
+            <p style="color: rgb(52, 50, 50);">Ideas trending among investors ⚡️</p>
+
+            <p style="font-size: 22px;">Popular Investment Ideas</p>
+      <p style="font-size: 18px;">Bullish on banking? Enjoying superfast internet? Worried about rising petrol prices?</p>
+         <div class="boxs">
+      <div class="ittaker">
+             <img src="https://assets.smallcase.com/images/smallcases/160/SCTR_0006.png" height="150px" width="150px" class="itimg"/>
+          <div class="itdet">
+             <a href="" style=" text-decoration: none;font-size: 20px;">IT Tracker</a>
+   <p>Companies to efficiently track and invest in the IT sector</p>
+   <p>Min Amount<br>
+     83,183</p>
+     
+   </div>
+
+            </div>
+
+            <div class="ditraker">
+                <img src="https://assets.smallcase.com/images/smallcases/160/SCNM_0014.png" height="150px" width="150px" class="itimg"/>
+             <div class="itdet">
+                <a href="" style=" text-decoration: none;font-size: 20px;">Digital Inclusion</a>
+      <p>Companies spearheading and benefitting from in India</p>
+      <p>Min Amount<br>
+        17,916</p>
+        
+      </div>
+   
+               </div>
+               </div>
+   <div class="cards marignsize">
+               <h3>There is a smallcase for everyone</h3>
+                <p>Looking to start with a small investment or thinking of low volatililty? Choose from a diverse menu</p>
+       <div class="row">
+           <div class="col-sm-2"></div>
+           <div class="col-sm-8 card_img">
+            <div class="card" style="width: 15rem;">
+                <img src="https://www.smallcase.com/static/images/svg/LowVolatility.svg" width="100px" height="60px" class="cardimg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Low Validity</h5>
+                  <p class="card-text">Go for stable returns at low volatility levels</p>
+                
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem;margin-left: 5%;">
+                <img src="https://www.smallcase.com/static/images/svg/LowInv.svg" width="100px" height="60px" class="cardimg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Low Inv. Amount</h5>
+                  <p class="card-text">Go for stable returns at low volatility levels</p>
+                
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem; margin-left: 5%;">
+                <img src="https://www.smallcase.com/static/images/svg/Tracker.svg" width="100px" height="60px" class="cardimg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Trakers</h5>
+                  <p class="card-text">Go for stable returns at low volatility levels</p>
+                
+                </div>
+              </div>
+
+
+              <div class="card" style="width: 15rem; margin-left: 5%;">
+                <img src="https://www.smallcase.com/static/images/svg/Thematic.svg" width="100px" height="60px" class="cardimg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Thematic</h5>
+                  <p class="card-text"> stable returns at low volatility levels</p>
+                
+                </div>
+              </div>
+           </div>
+           <div class="col-sm-2"></div>
+       </div>
+            </div>
+            </div>
+
+    
+        <div class="col-sm-2"></div>
+    </div>
+
+    
+    </div>
 <div class="row marignsize">
     <div class="col-sm-1"></div>
     <div class="col-sm-5 fonts">
