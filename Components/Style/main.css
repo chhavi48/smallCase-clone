@@ -1,0 +1,282 @@
+#mainContainer{
+   margin-left:0px;
+   margin-right:-16px;
+   
+  }
+  #header{
+    position:sticky;
+    top:0;
+  }
+#container{
+display: flex;
+padding: 15px 150px ;
+justify-content: space-between;
+border:1px solid rgb(182, 177, 177);
+font-size: 18px;
+border-left:none;
+border-right:none;
+margin-left:-65px;
+margin-right:-30px;
+margin-top:-10px;
+
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+#container>div{
+display: flex;
+justify-content: space-evenly;
+margin-right:40px; 
+margin-top:-10px;
+}
+#container>div>a{
+margin-left:30px;
+color: rgba(97, 97, 95, 0.616);
+margin-top:10px;
+font-family: 'Sen', sans-serif;
+}
+#home>img{
+width:110px;
+}
+#more{
+background-color: white;
+border: 0px;
+}
+#arrow>img{
+width:17px;
+margin-bottom:-7px;
+color:  rgba(97, 97, 95, 0.616);
+}
+#login{
+padding: 8px 15px;
+cursor: pointer;
+border-color: rgba(91, 91, 199, 0.568);
+color: blue;
+background-color: white;
+border-radius: 5px;
+font-size: 17px;
+margin-left:50px;
+margin-top:0px
+
+
+}
+
+a{
+text-decoration: none;
+}
+
+
+
+@media all and (min-width:751px) and (max-width:980px){
+    
+    #container{
+     padding: 10px 80px;
+     
+}
+
+}
+@media all and (min-width:381px) and (max-width:700px){
+    
+  #container{
+      padding: 10px 50px;
+      
+}
+}
+@media all and (min-width:50px) and (max-width:380px){
+    
+  #container{
+      padding: 10px 30px;
+      
+}
+}
+
+#img1>div>img{
+width:100%;
+}
+
+#slide{
+width:100%;
+height:500px;
+margin-left:-10px;
+margin-right:-50px;
+background-size:100% 100%;
+position:absolute;
+top: 150px;
+bottom: 20px;
+
+
+}
+#slide>img{
+
+float: right;
+
+margin-top: 220px;
+}
+
+
+#more{
+ position: absolute;
+ right:200px;
+ top:80px
+}
+.more-body{
+  
+  background: white;  
+  width:280px;
+  position:relative;
+  margin-left:-60px;
+  padding: 0px 20px ;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.more-body>div{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+  padding: 0px 0px 20px 0px;
+  margin-left:-5px
+  
+  
+}
+#career{
+  margin-left: -5px;
+}
+#career>a{
+  color: rgba(0, 0, 0, 0.575);
+}
+#career>a:hover{
+  color: blue;
+  width:200px;
+  padding: 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+}
+#made{
+  display: flex;
+  gap: 10px;
+  color: rgba(0, 0, 0, 0.466);
+  border: none;
+}
+.more-body>div>p,a{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#btnclose{
+  padding: 1px 10px;
+  margin-left:-16px;
+  color: rgb(70, 34, 34);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+#hiring{
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: rgb(130, 204, 20);
+  color: white;
+  border: 0px;
+  opacity: 9;
+}
+.more-body>div>p +a{
+  color: rgba(0, 0, 0, 0.595);
+}
+.more-body>div>p+a:hover{
+  color: blue;
+  width:200px;
+  padding: 5px 50px 5px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#chat1{
+  color: black;
+}
+#chat1:hover{
+  color: blue;
+  width:200px;
+  padding: 5px 50px 5px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+#checkBox{
+  width:400px;
+  position:absolute;
+  top:70px;
+  left:170px;
+  background-color:transparent;
+}
+#checkBox>h1{
+  color: black;
+  font-size: 47px;
+  font-family: sans-serif;
+}
+#checkBox>p{
+  color: black;
+  font: bold;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+#checkBox>h1+p{
+  margin-top:-20px;
+}
+#checkBox>div>button{
+  width:420px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#checkBox>div{
+  margin-left: 0px;
+  display: flex;
+  
+}
+#checkBox>div>button+button{
+  color: blue;
+  background-color: white;
+  border:1px solid blue
+}
+#loginbutton{
+  background-color: rgba(0, 0, 255, 0.551);
+  color: white;
+  border: 0px;
+}
+#companylogo{
+  display: flex;
+  gap:5px;
+}
+#companylogo>img{
+  width:40px;
+  height:40px;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  background-color: white;
+}
+#companylogo>img+button{
+  width:40px;
+  height:40px;
+  background-color: white;
+  color: blue;
+  border-radius: 50%;
+  border: 0px;
+  cursor: pointer;
+
+}
+#companylogo+div{
+  display: flex;
+}
+#companylogo+div>p{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.642);
+  font-family: sans-serif;
+}
+#companylogo+div>a{
+  font-size: 15px;
+  margin-top:0px;
+  margin-left: 2px;
+  color: blue;
+  font-family:sans-serif;
+}
+#mdarif{
+   margin-top:600px;
+}
+
