@@ -37,7 +37,8 @@ when you click on the Subscribe button plz fill in your full mail it’s not all
 <p>Abhishek Sinde</p>
 <p>Thanigaivel</P>
 
-<h2>here is the blog link of our project</h2>
+<h2>here is the blog link of our project</h2></hr>
 <a href="https://medium.com/@sichhavi48/are-you-know-what-is-smallcase-lets-see-how-we-clone-it-within-5days-470bf28df9fc">blog </a>
-
+</hr></hr><br>
+<p><i>THANK YOU for your valuable time feel free to ask questions about the website and for your suggestions.</i></p>
 
