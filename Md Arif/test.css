@@ -1,0 +1,155 @@
+body{
+    
+}
+
+
+.textOf h1{
+    font-size: 70px;
+    width: 600px;
+}
+
+.textOf p {
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+    background-color: rgb(241, 248, 248);
+}
+
+.vdo video{
+    width: 700px;
+    margin-left: 50px;
+    padding: 20px;
+    
+    
+}
+
+.fourBoxes{
+    display: flex;
+    text-align: center;
+}
+
+.fourBoxes p{
+    width: 75%;
+    align-content: center;
+}
+
+.flexImg{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    align-content: center;
+    margin-left: 100px;
+}
+
+.flexImg img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.flexImg p{
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+.textn h1{
+    font-size: 70px;
+    width: 600px;
+}
+.textIn p {
+    font-size: 30px;
+}
+
+.pointer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+     background-color: rgb(253, 255, 255);
+} 
+
+.img image{
+    width: 700px;
+    margin-left: 50px;
+    padding: 20px;
+    
+    
+}
+.textn h1{
+    font-size: 70px;
+    width: 600px;
+}
+.textInnn p {
+    font-size: 30px;
+}
+
+.small{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+     background-color: rgb(241, 248, 248);
+} 
+
+.img image{
+    width: 700px;
+    margin-left: 50px;
+    padding: 20px;
+    
+    
+}
+.btn {
+    font-family: "Sentinel A","Sentinel B",Georgia,serif; 
+    text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    background: #4383c5;
+    color: #FFF;
+    padding: 6px 20px 7px; 
+    font-size: 18px;
+    line-height: 23px;
+    min-width: 50px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle; 
+    border: 1px solid 4383c5;
+    cursor: pointer;
+    font-weight: 600px; 
+    transition: opacity 0.1s ease-out,background 0.1s ease-out;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),0 1px 3px rgba(0,0,0,0.4);
+    -webkit-transition: opacity 0.1s ease-out,background 0.1s ease-out;
+  }
+  .fourHead{
+    display: flex;
+    background-color: black;
+    border: 1px;
+    height: 10%;
+    width: 100%;
+}
+
+.fourHead p{
+    width: 75%;
+    align-content: center;
+    color: white;
+}
+.fourHead h1{
+    font-size: 70px;
+    width: 330px;
+    color: white;
+
+}
+
+#navbar{
+    width:100%;
+    position:sticky;
+    top:-1px;
+    background-color: white;
+  }
+  #container{
+    padding-top: 30px;
+    
+  }

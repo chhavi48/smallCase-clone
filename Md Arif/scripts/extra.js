@@ -4,10 +4,10 @@ async function extra(){
         <button id="btnclose" data-dismiss="modal" class="close">&times;</button>
         <div>
             <p>Account</p>
-            <a href="">Open Broker Account</a>
+            <a href="signup.html">Open Broker Account</a>
         </div>
         <div><p>Support</p>
-          <a href="">FAQs</a> <br><br> 
+          <a href="index.html" data-target="#mainRow">FAQs</a> <br><br> 
           <a id="chat1" href="">Chat with us</a>   
       </div>
       <div>

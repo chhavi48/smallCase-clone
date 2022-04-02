@@ -1,0 +1,255 @@
+*{
+    font-family: Graphik Web Medium,sans-serif;
+    
+}
+.miniDiv{
+    display: flex;
+    background-color: #f9fafb;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 32px;
+    position: relative;
+    width: 100%;
+    
+}
+#companyName{
+    width: 80%;
+    height: auto;
+    border: 1px black solid;
+    margin: auto;
+    display: flex;
+}
+.imageBox{
+    height: 80px;
+    width: 80px;
+    /* border: 1px blue solid; */
+    margin-right: 24px;
+    border-radius: 4px;
+    display: inline-block;
+    flex-shrink: 0;
+    align-self: start;
+}
+
+.details{
+    width: 70%;
+    height: 100px;
+    border: 1px solid red;
+    line-height: 1.57;
+}
+.heading{
+    color : #81878c;
+    font-size: 14px;
+}
+.greenPercentage{
+    color: #19af55;
+    margin-top: 8px;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+.votalityBtn{
+    align-items: center;
+    border: 1px solid #dde0e4;
+    color: #535b62;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 8px 4px 8px 4px;
+    height: 30px;
+}
+#middleBOx{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border: #19af55 1px solid;
+}
+.nav{
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right: 32px;
+    padding-bottom: 16px;
+    color: #535b62;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Graphik Web Regular,sans-serif;
+
+}
+hr{
+    width: 80%;
+    
+}
+#rightBOx{
+    width: 30%;
+    height: 500px;
+    border: red 1px solid;
+}
+#left{
+    width: 80%;
+    height: 500px;
+    border: blueviolet 1px solid;
+    margin: auto;
+    
+}
+#right{
+    width: 50%;
+    height: 500px;
+    /* border: rgb(226, 43, 211) 1px solid; */
+    margin: auto;
+}
+#mid{
+    /* border: rgb(49, 226, 43) 1px solid; */
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+div>h2{
+    margin-top: 8px;
+    line-height: 1.38;
+    font-family: Graphik Web Medium,sans-serif;
+}
+#left p{
+    text-align: justify;
+    word-spacing: 10px;
+    color: #2f363f;
+    
+}
+#middle{
+    width: 50%;
+    height: 250px;
+    /* border: rgb(226, 43, 211) 1px solid; */
+    border-left: thin solid #81878c;
+    margin: auto;
+    margin: 20px;
+}
+li{
+    text-align: justify;
+    word-spacing: 10px;
+    color: #2f363f;
+    margin-bottom: 10px;
+}
+#des{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+p a{
+    color: #1f7ae0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 25px;
+    font-weight: 700;
+}
+.tail{
+    margin-top: -40px;
+    color: #81878c;
+    font-size: 14px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#right>p{
+    color: #81878c ;
+    padding: 10px;
+}
+.pri{
+    margin-left: 10px;
+    font-size: 20px;
+}
+#investBtn{
+    
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 15px;
+    background-color: #27bc94;
+    border: 1px solid #27bc94;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 15%);
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Graphik Web Medium,sans-serif;
+}
+#wishlistBtn{
+    background-color: #fff;
+    border: 1px solid rgba(31,122,224,.3);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 6%);
+    color: #1f7ae0;
+    font-size: 15px;
+    padding: 16px 24px;
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Graphik Web Medium,sans-serif;
+    margin-top: 16px;
+}
+#nav3{
+    border: #19af55 solid 1px;
+    width: 60%;
+    height: auto;
+    margin-left:10% ;
+    display: flex;
+    justify-content: space-between;
+}
+.button1{
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid #dde0e4;
+    border-top-left-radius: 3px;
+    padding: 7px 9px;
+    border: 1px solid #dde0e4;
+    border-right: 0;
+    flex: 1 0;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #81878c;     
+    font-size: 13px;
+}
+.button2{
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: #81878c;  
+    text-align: center;
+    padding: 7px 9px;
+    cursor: pointer;
+}
+.hr1{
+    width: 60%;
+    margin-left: 10%;
+}
+
+#chart{
+    width: 60%;
+    height: auto;
+    margin-left: 10%;
+    border: 1px solid #e01f69;
+}
+iframe{
+    width: 60%;
+    height: 300px;
+    
+}
+
+
+
+
+#navbar{
+    width:100%;
+    position:sticky;
+    top:-1px;
+  }
+  #container{
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
