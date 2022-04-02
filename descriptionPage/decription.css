@@ -16,7 +16,7 @@
 #companyName{
     width: 80%;
     height: auto;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     margin: auto;
     display: flex;
 }
@@ -34,7 +34,7 @@
 .details{
     width: 70%;
     height: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     line-height: 1.57;
 }
 .heading{
@@ -62,7 +62,7 @@
     display: flex;
     width: 100%;
     margin: auto;
-    border: #19af55 1px solid;
+    /* border: #19af55 1px solid; */
 }
 .nav{
     margin-top: 25px;
@@ -89,7 +89,7 @@ hr{
 #left{
     width: 80%;
     height: 500px;
-    border: blueviolet 1px solid;
+    /* border: blueviolet 1px solid; */
     margin: auto;
     
 }
@@ -190,7 +190,7 @@ p a{
     margin-top: 16px;
 }
 #nav3{
-    border: #19af55 solid 1px;
+    /* border: #19af55 solid 1px; */
     width: 60%;
     height: auto;
     margin-left:10% ;
@@ -233,13 +233,13 @@ p a{
     width: 60%;
     height: auto;
     margin-left: 10%;
-    border: 1px solid #e01f69;
+    /* border: 1px solid #e01f69; */
 }
 #latestNews{
     width: 60%;
     height: auto;
     margin-left: 10%;
-    border: 1px solid #1f99e0;
+    /* border: 1px solid #1f99e0; */
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -264,7 +264,7 @@ p a{
     width: 60%;
     height: 300px;
     margin-left: 10%;
-    border: 1px solid #e01f96;
+    /* border: 1px solid #e01f96; */
     display: flex;
 }
 .box1{
